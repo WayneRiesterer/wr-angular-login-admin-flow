@@ -1,0 +1,7 @@
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+  <input id="username" formControlName="username" placeholder="User name" autofocus>
+  <input type="password" formControlName="password" placeholder="Password">
+  <button type="submit">Login</button>
+  <p>There's no password ;) This isn't about testing authentication, but rather just demonstrating UI-flow and nested routing.</p>
+  <p>In other words, you can just click on the Login button and you'll be routed to a dashboard.</p>
+</form>

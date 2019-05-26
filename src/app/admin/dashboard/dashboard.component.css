@@ -1,0 +1,10 @@
+:host {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 4rem 1fr 4rem;
+}
+
+div {
+  width: 100%;
+  display: flex;
+}
